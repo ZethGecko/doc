@@ -1,0 +1,21 @@
+# Entorno virtual (está fuera de new/, pero por si acaso)
+entorno/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Base de datos local (si luego usas SQLite)
+*.db
+*.sqlite3
+
+# Variables de entorno
+.env
+
+# IDE
+.vscode/
+.idea/  
